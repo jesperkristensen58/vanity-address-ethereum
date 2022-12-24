@@ -30,4 +30,4 @@ for _ in range(NUMITER):
 
 print(f"Found 0x{bestaddr} with {best} leading zeros.")
 print("Private key:")
-print(f"0x{encode_hex(bestprivkey)}")
+print(encode_hex(bestprivkey))
